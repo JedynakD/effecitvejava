@@ -1,4 +1,4 @@
-package effectivejava.chapter3.item15;
+package effectivejava.chapter4.item17;
 
 //mutable external class out of our control
 public class Book {

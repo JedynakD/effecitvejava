@@ -1,4 +1,4 @@
-package effectivejava.chapter3.item15;
+package effectivejava.chapter4.item17;
 
 import com.google.gson.Gson;
 
