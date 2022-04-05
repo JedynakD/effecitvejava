@@ -8,6 +8,7 @@ public class OuterClass {
         this.hugeFile = hugeFile;
     }
 
+    //static -> just adding "static" will prevent the memory leak, GC will work just fine
     class Inner {
 
     }
