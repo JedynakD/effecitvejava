@@ -6,8 +6,8 @@ public class Main {
         printEnums(MobileBrowser.class);
     }
 
-    private static <T extends Enum<T> & Browser> void printEnums(Class<T> opEnumType) {
-        for (Browser browser : opEnumType.getEnumConstants()) {
+    private static <T extends Enum<T> & Browser> void printEnums(Class<T> enumClass) {
+        for (Browser browser : enumClass.getEnumConstants()) {
             System.out.println(browser.getName());
         }
     }
