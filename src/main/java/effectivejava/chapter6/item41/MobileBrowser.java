@@ -3,7 +3,7 @@ package effectivejava.chapter6.item41;
 public enum MobileBrowser implements Browser {
 
     DOLPHIN("Dolphin"),
-    Puffin("Puffin"),
+    PUFFIN("Puffin"),
     FIREFOX_FOCUS("Firefox Focus");
 
     private final String name;
