@@ -18,7 +18,7 @@ public final class Student {
 
     public Student addBook(Book book) {
         Set<Book> books = getBooks();
-        books.add(book);
+        books.add(deepCopyBook(book));
         return new Student(this.name, books);
     }
 
