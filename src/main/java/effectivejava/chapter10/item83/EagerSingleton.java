@@ -2,7 +2,7 @@ package effectivejava.chapter10.item83;
 
 public class EagerSingleton {
 
-    // initialized after main is run -> eagerly
+    // initialized before main is run -> eagerly
     private static final EagerSingleton INSTANCE = new EagerSingleton();
 
     public static EagerSingleton getInstance() {
